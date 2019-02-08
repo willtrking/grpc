@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   repo = 'grpc/grpc'
   file = "grpc_objective_c_plugin-#{v}-macos-x86_64.zip"
   s.source = {
-    :http => "https://github.com/#{repo}/releases/download/v#{v}/#{file}",
+    :http => "https://github.com/grpc/grpc/releases/download/v1.18.0/grpc_objective_c_plugin-1.18.0-macos-x86_64.zip",
     # TODO(jcanizales): Add sha1 or sha256
     # :sha1 => '??',
   }
